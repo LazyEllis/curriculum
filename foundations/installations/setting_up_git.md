@@ -29,11 +29,11 @@ sudo apt upgrade
 
 #### A note on typing passwords in the terminal
 
-  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
-  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
-  You can still enter your password as normal and press Enter to submit it.
+You can still enter your password as normal and press Enter to submit it.
 
 </div>
 
@@ -103,7 +103,7 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 1. Run `brew doctor`.
 1. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
-![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
+   ![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
 1. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
@@ -135,7 +135,7 @@ For Git to work properly, we need to let it know who we are so that it can link 
 The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks)!
 
 ```bash
-git config --global user.name "Your Name"
+git config --global user.name "Your Name" # This name appears on your commits
 git config --global user.email "yourname@example.com"
 ```
 
