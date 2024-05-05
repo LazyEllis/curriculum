@@ -14,7 +14,7 @@ We can only support the operating systems indicated above. Our instructions have
 This section contains a general overview of topics that you will learn in this lesson.
 
 - How to set up a proper environment to follow The Odin Project curriculum.
-- Installing Google Chrome in your environment.
+- Installing Google Chrome or Mozilla Firefox in your environment.
 
 ### Assignment
 
@@ -177,6 +177,7 @@ When using a command in the terminal that requires you to enter your password fo
 This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
 You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 ```bash
@@ -193,7 +194,7 @@ After `sudo apt upgrade` runs for a while you will be asked whether you want to 
 Here are some tips to help you get started in a virtual environment:
 
 - Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
-    ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
+  ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
 - All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
 - To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
 - You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
@@ -390,9 +391,9 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 - Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-    ```bash
-    sudo apt install ./google-chrome-stable_current_amd64.deb
-    ```
+  ```bash
+  sudo apt install ./google-chrome-stable_current_amd64.deb
+  ```
 
 - Enter your password, if needed
 
@@ -400,11 +401,12 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 #### A note on typing passwords in the terminal
 
-  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
-  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
-  You can still enter your password as normal and press Enter to submit it.
+You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
@@ -488,6 +490,73 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 - Search for **Google Chrome** in your applications.
 - Double click **Google Chrome**.
+
+</details>
+
+### Mozilla Firefox installation
+
+#### Why Mozilla Firefox?
+
+Mozilla Firefox is a widely respected browser known for its privacy features, customization options, and open-source ethos. While our lessons primarily focus on Google Chrome, Firefox offers a robust alternative for those who prefer it or seek alternatives to Chrome's ecosystem.
+
+Choose your Operating System:
+
+<details markdown="block">
+<summary class="dropDown-header">Linux</summary>
+
+#### Step 1: Download Mozilla Firefox
+
+- Open your **Terminal**
+- Run the following command to install Mozilla Firefox
+
+```bash
+sudo apt update && sudo apt install firefox
+```
+
+#### Step 2: Using Mozilla Firefox
+
+- After installation, you can launch Mozilla Firefox from the Applications menu or by typing `firefox` in the terminal.
+
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">MacOS</summary>
+
+#### Step 1: Download Mozilla Firefox
+
+- Visit the [Mozilla Firefox download page](https://www.mozilla.org/en-US/firefox/new/)
+- Click **Download Firefox**
+
+#### Step 2: Install Mozilla Firefox
+
+- Open the **Downloads** folder
+- Double click the file **Firefox.dmg**
+- Drag the Firefox icon to the **Applications** folder icon
+
+#### Step 3: Using Mozilla Firefox
+
+- Go to your **Applications** folder
+- Double click **Mozilla Firefox**
+
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">WSL2</summary>
+
+#### Step 1: Download Mozilla Firefox
+
+- Visit the [Mozilla Firefox download page](https://www.mozilla.org/en-US/firefox/new/)
+- Click **Download Firefox**
+
+#### Step 2: Install Mozilla Firefox
+
+- Open the **Downloads** folder
+- Double click the file **FirefoxSetup.exe**
+
+#### Step 3: Using Mozilla Firefox
+
+- Search for **Mozilla Firefox** in your applications
+- Double click **Mozilla Firefox**
 
 </details>
 

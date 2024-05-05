@@ -13,7 +13,7 @@ In the following sections, we'll go over the steps for setting up your environme
 In the next few lessons, we will walk through these installation steps together:
 
 - Installing a supported operating system (OS).
-- Installing Google Chrome web browser.
+- Installing Google Chrome or Mozilla Firefox web browser.
 - Installing a code editor.
 - Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
 
@@ -63,7 +63,7 @@ Still not convinced? Here are a few great reasons to install Linux:
 
 - **Tested** - We've tested our directions with macOS, Ubuntu (and official Ubuntu flavors) and WSL2. We did the research so that you can get tools installed with as few issues as possible, getting you to coding sooner. Time spent wrestling with your operating system is time taken from learning how to code.
 - **Community Support** - Using the tools we recommend makes it easier for us to help when you run into trouble.
-- **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform like Linux.
+- **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly _expect_ to run on an open-source (UNIX-based) platform like Linux.
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and will occupy less hard drive space.
 
